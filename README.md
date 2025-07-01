@@ -41,8 +41,7 @@ src/main/java/com/example/prototypepoc
 │ └── service
 │ └── BusinessService.java # Core business logic
 └── infrastructure
-└── primary
-└── spring
+  └── adapter
 ├── PrototypeBean.java # Prototype-scoped bean
 └── PrototypeConsumer.java # Adapter that injects PrototypeBean
 ```
